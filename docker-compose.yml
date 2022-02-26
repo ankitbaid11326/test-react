@@ -1,0 +1,6 @@
+version: "3"
+services:
+  apollo-api:
+    # build:
+    #   context: .
+    #   dockerfile: Dockerfile.dev

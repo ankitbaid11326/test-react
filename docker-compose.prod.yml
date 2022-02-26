@@ -1,0 +1,11 @@
+version: "3"
+services:
+  apollo-api:
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    ports:
+      - "8080:80"
+    environment:
+      - REACT_APP_NAME=apollo-api
+      - BASE_URL=http://localhost:3000
